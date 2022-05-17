@@ -42,7 +42,7 @@ for x in range(-500+size//2, 500, size):
 		#draw inner square
 		randomList = random.choices(sampleList, weights=(80,20))
 		if randomList == [0]:
-			for i in range(7):
+			for i in range(6):
 				draw_square(x+i*x_off, y+i*y_off, size-i*shrink)
 
 		elif randomList == [1]:
